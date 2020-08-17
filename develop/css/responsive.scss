@@ -1351,7 +1351,7 @@
 	}
 	.contact__item-text, .mobile-phone, .decktop-phone,
 	.contact__item-text1, .mailto, .maplink {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 	.h1 {
 		font-size: 2.5rem;
@@ -1363,13 +1363,13 @@
 		width: auto;
 	}
 	.day {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 	.open__item-text {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 	.open__item-text1 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		width: auto;
 	}
 	.contact__item-img {
@@ -1416,7 +1416,7 @@
 	.day,
 	.open__item-text,
 	.open__item-text1 {
-		font-size: 1.7rem;
+		font-size: 1.3rem;
 	}
 }
 @media screen and (max-width: 365px) {
@@ -1487,12 +1487,22 @@
 	.day,
 	.open__item-text,
 	.open__item-text1 {
-		font-size: 1.55rem;
+		font-size: 1.2rem;
 	}
 }
 @media screen and (max-width: 330px) {
 	.section1__headline {
 		font-size: 4rem;
+	}
+}
+@media screen and (max-width: 321px) {
+	.contact__item-text, .mobile-phone, .decktop-phone,
+	.contact__item-text1, .mailto, .maplink,
+	.open__item,
+	.day,
+	.open__item-text,
+	.open__item-text1 {
+		font-size: 1.19rem;
 	}
 }
 @media screen and (max-width: 320px) {
