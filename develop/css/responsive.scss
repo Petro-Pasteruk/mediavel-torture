@@ -1409,7 +1409,7 @@
 		width: 35rem;
 	}
 }
-@media screen and (max-width: 390px){
+@media screen and (max-width: 390px) {
 	.contact__item-text, .mobile-phone, .decktop-phone,
 	.contact__item-text1, .mailto, .maplink,
 	.open__item,
@@ -1417,6 +1417,11 @@
 	.open__item-text,
 	.open__item-text1 {
 		font-size: 1.3rem;
+	}
+}
+@media screen and (max-width: 375px) {
+	.section2 {
+		background-image: url(../images/bg_section2-450-3.png);
 	}
 }
 @media screen and (max-width: 365px) {
@@ -1448,7 +1453,7 @@
 		margin-top: 3rem;
 	}
 	.section2__headline2 {
-		margin-top: 25rem;
+		margin-top: 8rem;
 	}
 	.icon-cards{
 		margin-top: 15rem;
