@@ -1496,6 +1496,11 @@
 		background-image: url("../images/bg_section2-350.jpg");
 	}
 }
+@media screen and (max-width: 373px) {
+	.contact__item-text, .mobile-phone, .decktop-phone, .contact__item-text1, .mailto, .maplink, .open__item, .day, .open__item-text, .open__item-text1  {
+		font-size: 1.2rem;
+	}
+}
 @media screen and (max-width: 370px) {
 	.slider__item {
 		width: 33rem;
@@ -1561,8 +1566,16 @@
 	.slider__item {
 		width: 30rem;
 	}
+	.h1 {
+		font-size: 2.2rem;
+	}
 }
-@media screen and (max-width: 337px){
+@media screen and (max-width: 340px) {
+	.contact__item-text, .mobile-phone, .decktop-phone, .contact__item-text1, .mailto, .maplink, .open__item, .day, .open__item-text, .open__item-text1 {
+		font-size: 1.1rem;
+	}
+}
+@media screen and (max-width: 337px) {
 	.contact__item-text, .mobile-phone, .decktop-phone,
 	.contact__item-text1, .mailto, .maplink,
 	.open__item,
@@ -1582,13 +1595,13 @@
 		font-size: 8.9px;
 	}
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 323px) {
 	.contact__item-text, .mobile-phone, .decktop-phone,
 	.contact__item-text1, .mailto, .maplink,
 	.open__item,
 	.day,
 	.open__item-text,
 	.open__item-text1 {
-		font-size: 1.19rem;
+		font-size: 1.01rem;
 	}
 }
