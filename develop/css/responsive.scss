@@ -1,5 +1,3 @@
-@import url("../css/normalize.css");
-
 @media screen and (max-width: 2560px) {
 	html {
 		font-size: 70%;
@@ -1174,6 +1172,11 @@
 	}
 
 }
+@media screen and (max-width: 790px) {
+	.section2 {
+		background-image: url("../images/bg_section2-790.png");
+	}
+}
 @media screen and (max-width: 769px) {
 	.section1__left {
 		top: 70vh!important;
@@ -1194,6 +1197,11 @@
 		margin-top: 0;
 	}
 }
+@media screen and (max-width: 750px) {
+	.section2 {
+		background-image: url("../images/bg_section2-750.png");
+	}
+}
 @media screen and (max-width: 680px) {
 	.slider__item {
 		width: 30rem;
@@ -1207,6 +1215,9 @@
 		position: relative;
 		width: 100%
 	}
+	.section2 {
+		background-image: url("../images/bg_section2-620.png");
+	}
 }
 @media screen and (max-width: 605px) {
 	.section1__headline {
@@ -1219,6 +1230,11 @@
 	}
 	.section1__headline2 {
 		margin-top: 0;
+	}
+}
+@media screen and (max-width: 510px) {
+	.section2 {
+		background-image: url("../images/bg_section2-510.png");
 	}
 }
 @media screen and (max-width: 450px) {
@@ -1389,10 +1405,22 @@
 		width: 15.1875rem!important;
 	}
 }
-@media screen and (max-width: 400px) {
-.section2 {
-    background-image: url(../images/bg_section2-450.jpg);
+@media screen and (max-width: 427px) {
+	.section2 {
+		background-image: url("../images/bg_section2-450-1.png");
 	}
+}
+@media screen and (max-width: 420px) {
+	.section2 {
+		background-image: url("../images/bg_section2-450.jpg");
+	}
+}
+@media screen and (max-width: 410px) {
+	.section2 {
+		background-image: url("../images/bg_section2-450-3.png");
+	}
+}
+@media screen and (max-width: 400px) {
 	.block__text-text {
     	font-weight: 300;
     	letter-spacing: 0.07em;
@@ -1409,6 +1437,11 @@
 		width: 35rem;
 	}
 }
+@media screen and (max-width: 392px) {
+	.section2 {
+		background-image: url("../images/bg_section2-450-4.png");
+	}
+}
 @media screen and (max-width: 390px) {
 	.contact__item-text, .mobile-phone, .decktop-phone,
 	.contact__item-text1, .mailto, .maplink,
@@ -1419,9 +1452,9 @@
 		font-size: 1.3rem;
 	}
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 384px) {
 	.section2 {
-		background-image: url(../images/bg_section2-450-3.png);
+		background-image: url("../images/bg_section2-350.jpg");
 	}
 }
 @media screen and (max-width: 365px) {
@@ -1508,10 +1541,5 @@
 	.open__item-text,
 	.open__item-text1 {
 		font-size: 1.19rem;
-	}
-}
-@media screen and (max-width: 320px) {
-	.section2__headline2 {
-		margin-top: 30rem;
 	}
 }
