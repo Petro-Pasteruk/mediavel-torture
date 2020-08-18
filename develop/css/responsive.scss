@@ -1236,6 +1236,9 @@
 	.section2 {
 		background-image: url("../images/bg_section2-510.png");
 	}
+	.block__text-text {
+		font-size: 11px;
+	}
 }
 @media screen and (max-width: 450px) {
 	.desktop-cell{
@@ -1405,6 +1408,11 @@
 		width: 15.1875rem!important;
 	}
 }
+@media screen and (max-width: 430px) {
+	.block__text-text {
+		font-size: 10px;
+	}
+}
 @media screen and (max-width: 427px) {
 	.section2 {
 		background-image: url("../images/bg_section2-450-1.png");
@@ -1440,6 +1448,9 @@
 @media screen and (max-width: 392px) {
 	.section2 {
 		background-image: url("../images/bg_section2-450-4.png");
+	}
+	.block__text-text {
+		font-size: 9px;
 	}
 }
 @media screen and (max-width: 390px) {
@@ -1531,6 +1542,11 @@
 @media screen and (max-width: 330px) {
 	.section1__headline {
 		font-size: 4rem;
+	}
+}
+@media screen and (max-width: 325px) {
+	.block__text-text {
+		font-size: 8.9px;
 	}
 }
 @media screen and (max-width: 321px) {
