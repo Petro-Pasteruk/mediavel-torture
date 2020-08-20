@@ -140,7 +140,6 @@ $(document).ready(function () {
         loop: true,
         centeredSlides: true,
         slidesPerGroup: 1,
-        height: 2000,
         loopFillGroupWithBlank: true,
         pagination: {
             clickable: true,
