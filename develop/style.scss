@@ -1001,9 +1001,6 @@ figure.snip1104 section {
 	animation-delay:1.2s;
 }
 
-.swiper-wrapper {
-	//align-items: center;
-}
 
 .swiper-slide {
 	transition: opacity .3s, width .3s, margin-bottom .3s, margin-top .3s;
@@ -1012,8 +1009,12 @@ figure.snip1104 section {
 	margin-bottom: 10px;
 }
 
+.swiper-slide-prev {
+	margin-left: -10px;
+}
+
 .swiper-slide-active {
-	width: 40% !important;
+	width: 70% !important;
 	opacity: 1;
 	margin-top: 0;
 	margin-bottom: 0;
