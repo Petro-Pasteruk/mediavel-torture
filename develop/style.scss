@@ -1,5 +1,7 @@
 @import "css/normalize";
 
+@import "css/swiper-bundle.min";
+
 @font-face {
 	font-family: 'Bebas Neue';
 	src: local('Bebas Neue Regular'), local('Bebas-Neue-Regular'),
@@ -997,6 +999,24 @@ figure.snip1104 section {
 }
 .section1__btn{
 	animation-delay:1.2s;
+}
+
+.swiper-wrapper {
+	//align-items: center;
+}
+
+.swiper-slide {
+	transition: opacity .3s, width .3s, margin-bottom .3s, margin-top .3s;
+	opacity: .7;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.swiper-slide-active {
+	width: 40% !important;
+	opacity: 1;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 @import "css/responsive";
