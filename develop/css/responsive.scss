@@ -580,7 +580,7 @@
 		flex-shrink: 0;
 		display: flex;
 		/* align-items: center; */
-		background-image: url("images/contact-bg.png");
+		background-image: url("images/png/contact-bg.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
@@ -674,7 +674,7 @@
 		height: 2.5rem;
 		background-size:contain;
 		background-repeat:no-repeat;
-		background-image:url(images/blik.jpg);
+		background-image:url(images/jpg/blik.jpg);
 		top:50%;
 		right:90%;
 		animation:Jb 3.4s ease-in-out;
@@ -690,7 +690,7 @@
 		height:2.5rem;
 		background-size:contain;
 		background-repeat:no-repeat;
-		background-image:url(images/blik.jpg);
+		background-image:url(images/jpg/blik.jpg);
 		top:58%;right:90%;
 		animation:Jb 3.4s ease-in-out;
 		animation-duration:3.5s;
@@ -895,7 +895,7 @@
 		font-size: 60%;
 	}
 	.section2 {
-		background-image: url(../images/bg_section2-1150.jpg);
+		background-image: url(../images/jpg/bg_section2-1150.jpg);
 	}
 		.section2 {
 			background-size:auto;
@@ -957,7 +957,7 @@
 		padding-top: 2rem;
 	}
 	.section2{
-		background-image: url("../images/bg_section2-1024.jpg");
+		background-image: url("../images/jpg/bg_section2-1024.jpg");
 	}
 	.section2__left {
 		transform: translateY(-10%);
@@ -1090,7 +1090,7 @@
 		font-size: 12px;
 	}
 	.section2 {
-		background-image: url(../images/bg_section2-768.jpg);
+		background-image: url(../images/jpg/bg_section2-768.jpg);
 		background-size: cover;
 	}
 	.content-left, .content-right{
@@ -1179,7 +1179,7 @@
 }
 @media screen and (max-width: 790px) {
 	.section2 {
-		background-image: url("../images/bg_section2-790.png");
+		background-image: url("../images/jpg/bg_section2-790.jpg");
 	}
 }
 @media screen and (max-width: 769px) {
@@ -1204,7 +1204,7 @@
 }
 @media screen and (max-width: 750px) {
 	.section2 {
-		background-image: url("../images/bg_section2-750.png");
+		background-image: url("../images/jpg/bg_section2-750.jpg");
 	}
 }
 @media screen and (max-width: 680px) {
@@ -1221,7 +1221,7 @@
 		width: 100%
 	}
 	.section2 {
-		background-image: url("../images/bg_section2-620.png");
+		background-image: url("../images/jpg/bg_section2-620.jpg");
 	}
 	.slider__item {
 		width: 33rem;
@@ -1250,7 +1250,7 @@
 }
 @media screen and (max-width: 510px) {
 	.section2 {
-		background-image: url("../images/bg_section2-510.png");
+		background-image: url("../images/jpg/bg_section2-510.jpg");
 	}
 	//.block__text-text {
 	//	font-size: 11px;
@@ -1348,7 +1348,7 @@
 	.section2 {
 		margin-top: 0;
 		height: auto;
-		background-image: url("../images/bg_section2-450-2.jpg");
+		background-image: url("../images/jpg/bg_section2-450-2.jpg");
 	}
 	.section2__left {
 		top: 350px;
@@ -1440,13 +1440,13 @@
 }
 @media screen and (max-width: 427px) {
 	.section2 {
-		background-image: url("../images/bg_section2-450-1.png");
+		background-image: url("../images/jpg/bg_section2-450-1.jpg");
 	}
 }
 @media screen and (max-width: 425px) {
 	.page__cell.fixedHeight {
 		height: 100vh;
-		background-image: url("../images/bg_section2-425.png");
+		background-image: url("../images/jpg/bg_section2-425.jpg");
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: contain;
@@ -1467,12 +1467,12 @@
 }
 @media screen and (max-width: 420px) {
 	.section2 {
-		background-image: url("../images/bg_section2-450.jpg");
+		background-image: url("../images/jpg/bg_section2-450.jpg");
 	}
 }
 @media screen and (max-width: 410px) {
 	.section2 {
-		background-image: url("../images/bg_section2-450-3.png");
+		background-image: url("../images/jpg/bg_section2-450-3.jpg");
 	}
 
 	.slider__item {
@@ -1520,7 +1520,7 @@
 }
 @media screen and (max-width: 392px) {
 	.section2 {
-		background-image: url("../images/bg_section2-450-4.png");
+		background-image: url("../images/jpg/bg_section2-450-4.jpg");
 	}
 	//.block__text-text {
 	//	font-size: 9px;
@@ -1543,7 +1543,7 @@
 }
 @media screen and (max-width: 384px) {
 	.section2 {
-		background-image: url("../images/bg_section2-350.jpg");
+		background-image: url("../images/jpg/bg_section2-350.jpg");
 	}
 	.contact__item-text, .mobile-phone, .decktop-phone, .mailto, .maplink,
 	.open__item,
@@ -1620,7 +1620,7 @@
 }
 @media screen and (max-width: 350px) {
 	.section2 {
-		background-image: url(../images/bg_section2-350.jpg);
+		background-image: url(../images/jpg/bg_section2-350.jpg);
 	}
 	.section1__bottom {
 		margin-top: 11vh!important;

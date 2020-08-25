@@ -62,7 +62,7 @@ a{
 .section1{
 	/*height: 118.125rem;*/
 	position: relative;
-	background-image: url("../images/bg_section1.jpg");
+	background-image: url("../images/jpg/bg_section1.jpg");
 	
     background-position: top center;
 }
@@ -228,7 +228,7 @@ a{
 	margin-top: 96px;
 	height: 1025px;
 	position: relative;
-	background-image: url("../images/bg_section2_1920.jpg");
+	background-image: url("../images/jpg/bg_section2_1920.jpg");
     /*background-size: cover;*/
     background-position: center;
 	background-repeat: no-repeat;
@@ -399,7 +399,7 @@ a{
 	padding-bottom: 112px;
 	/*height: 961px;*/
 	position: relative;
-	background-image: url("../images/bg_section4.jpg");
+	background-image: url("../images/jpg/bg_section4.jpg");
     background-size: contain;
     background-position: center;
 	background-repeat: no-repeat;
@@ -568,7 +568,7 @@ a{
 .section5{
 	position: relative;
 	height: 742px;
-	background-image: url("../images/bg_section5.jpg");
+	background-image: url("../images/jpg/bg_section5.jpg");
     background-size: contain;
     background-position: center;
 	background-repeat: no-repeat;
@@ -633,7 +633,7 @@ footer{
     flex-shrink: 0;
     display: flex;
     /* align-items: center; */
-	background-image: url("../images/contact-bg.png");
+	background-image: url("../images/png/contact-bg.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -727,7 +727,7 @@ footer{
 	height: 2.5rem;
 	background-size:contain;
 	background-repeat:no-repeat;
-	background-image:url(../images/blik.jpg);
+	background-image:url(../images/jpg/blik.jpg);
 	top:50%;
 	right:100%;
 }
@@ -741,7 +741,7 @@ footer{
 	height:2.5rem;
 	background-size:contain;
 	background-repeat:no-repeat;
-	background-image:url(../images/blik.jpg);
+	background-image:url(../images/jpg/blik.jpg);
 	top:58%;right:100%;
 }
 .spacial-raiting:hover:before,
