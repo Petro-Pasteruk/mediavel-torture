@@ -1445,20 +1445,17 @@
 		background-image: url("../images/jpg/bg_section2-425.jpg");
 		background-repeat: no-repeat;
 		background-position: center center;
-		background-size: contain;
+		background-size: cover;
 	}
 	.section2 {
 		background: #000;
 		background-image: none !important;
 	}
 	.aboutus {
-		height: 75%;
+		height: 65%;
 	}
 	.aboutus__part {
 		height: 70%;
-	}
-	.section2__headline2 {
-		margin-top: -3 rem !important;
 	}
 	.aboutus.desk {
 		display: none;
@@ -1484,7 +1481,7 @@
 		width: 5rem;
 	}
 	.section2__headline2 {
-		margin-top: -2rem;
+		margin-top: -5rem;
 	}
 }
 @media screen and (max-width: 420px) {
@@ -1525,9 +1522,6 @@
     //	font-weight: 300;
     //	letter-spacing: 0.07em;
 	//}
-	.section2__headline2 {
-		margin-top: -3rem !important;
-	}
 	.section1__left {
 		top: 65vh!important;
 		width: 140px
@@ -1584,6 +1578,9 @@
 	}
 	.h1 {
 		font-size: 13px;
+	}
+	.aboutus.mob .aboutus__part .aboutus__part-item {
+		width: 50%;
 	}
 }
 @media screen and (max-width: 360px) {
