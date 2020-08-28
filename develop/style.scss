@@ -20,6 +20,7 @@
     box-sizing: border-box;
 	user-select: none;
 	pointer-events: none;
+	overflow-x: hidden;
 }
 .clearfix::after {
     content: "";
@@ -326,6 +327,10 @@ a{
 }
 /*SECTION2*/
 /*SECTION3*/
+.section3,
+.section3 * {
+	overflow-x: initial;
+}
 .section4__card{
 	width: 100%;
 	display: flex;
