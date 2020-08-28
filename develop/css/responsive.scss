@@ -1495,6 +1495,12 @@
 	*::before {
 		overflow-x: hidden;
 	}
+	.section1__left,
+	.section1__left *,
+	.section1__right,
+	.section1__right * {
+		pointer-events: none;
+	}
 }
 @media screen and (max-width: 420px) {
 	.section2 {
