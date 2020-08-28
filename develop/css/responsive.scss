@@ -1487,6 +1487,13 @@
 		margin-top: 2rem;
 		padding-top: 4rem;
 	}
+	.section1__left,
+	.section1__left *,
+	.section1__right,
+	.section1__right *, {
+		user-select: none;
+		pointer-events: none;
+	}
 }
 @media screen and (max-width: 420px) {
 	.section2 {
