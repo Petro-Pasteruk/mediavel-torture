@@ -68,12 +68,16 @@ a{
 }
 .section1__wheel{
 	position: absolute;
-	width: 668px;
+	width: 1000px;
 	left: 51%;
 	top: 27%;
 	z-index: 10;
 	transform: translate(-50%, -50%);
 	animation-delay: 1.8s;
+	text-align: center;
+}
+.section1__wheel img {
+	width: 70%;
 }
 .header{
 	position: relative;
@@ -136,7 +140,7 @@ a{
 .word--kidnap{
 	margin: 0;
 	font-size: 24px;
-	font-weight: 500;
+	font-weight: 600;
 	color: #000;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
