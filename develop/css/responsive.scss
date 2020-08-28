@@ -1490,6 +1490,11 @@
 	.section1__btn {
 		margin-top: 18vh !important;
 	}
+	*,
+	*::after,
+	*::before {
+		overflow-x: hidden;
+	}
 }
 @media screen and (max-width: 420px) {
 	.section2 {
