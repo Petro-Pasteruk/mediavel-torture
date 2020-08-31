@@ -68,8 +68,8 @@ a{
 }
 .section1__wheel{
 	position: absolute;
-	width: 1000px;
-	left: 51%;
+	width: 100vw;
+	left: 50%;
 	top: 27%;
 	z-index: 10;
 	transform: translate(-50%, -50%);
@@ -77,7 +77,7 @@ a{
 	text-align: center;
 }
 .section1__wheel img {
-	width: 70%;
+	width: 50%;
 }
 .header{
 	position: relative;
