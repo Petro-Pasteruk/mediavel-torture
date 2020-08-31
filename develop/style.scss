@@ -1033,5 +1033,9 @@ figure.snip1104 section {
 	margin-bottom: 0;
 }
 
+.select {
+	z-index: 11;
+}
+
 @import "css/responsive";
 @import "css/nice-select";
