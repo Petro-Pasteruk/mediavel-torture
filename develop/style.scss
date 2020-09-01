@@ -1040,8 +1040,9 @@ figure.snip1104 section {
 	margin-bottom: 0;
 }
 
-.select {
-	z-index: 11;
+.select,
+.select * {
+	z-index: 11 !important;
 }
 
 @import "css/responsive";
