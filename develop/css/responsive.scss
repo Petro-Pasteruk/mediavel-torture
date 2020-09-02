@@ -187,7 +187,6 @@
 	/*SECTION2*/
 	.section2{
 		margin-top: 6rem;
-		height: 90.9375rem;
 		position: relative;
 	
 		background-size: cover;
@@ -255,14 +254,16 @@
 		color: #bd0000;
 	}
 	.section2__headline2{
-		margin-top: 6rem;
-		padding-bottom: 5.375rem;
+		margin-top: 7rem;
 		font-size: 4.25rem;
 		font-weight: 300;
 		text-transform: uppercase;
 		line-height: 1.2;
 		text-align: center;
 		letter-spacing: 0.1em;
+	}
+	.section3 {
+		margin: 0;
 	}
 	.section2__headline2 span{
 		color: #bd0000;
@@ -348,7 +349,6 @@
 	/*SECTION3*/
 	/*SECTION4*/
 	.section4{
-		margin-top: 10rem;
 		padding-bottom: 10rem;
 		/*height: 961px;*/
 		position: relative;
@@ -362,7 +362,7 @@
 		line-height: 0.75;
 		text-align: center;
 		font-weight: 300;
-		padding-top: 5rem;
+		padding-top: 7rem;
 		letter-spacing: 0.1em;
 	}
 	.tablet{
@@ -378,7 +378,6 @@
 		width: 50%;
 		display: flex;
 		justify-content: space-around;
-		max-height: 100px;
 		overflow-y: auto;
 	}
 	.section__info-block{
@@ -913,16 +912,15 @@
 	}
 	.section2 {
 		background-image: url(../images/jpg/bg_section2-1150.jpg);
+		background-size:auto;
 	}
-		.section2 {
-			background-size:auto;
-		}
-	
-		
+	.section2__headline2 {
+		margin-top: 8rem;
+	}
 }
 @media screen and (max-width: 1129px) {
-	.page__row.section3 {
-		margin-top: 5.375rem;
+	.section2__headline2 {
+		margin-top: 7rem;
 	}
 }
 @media screen and (max-width: 1025px) {
@@ -1396,7 +1394,7 @@
 		width: 100px;
 	}
 	.section2__headline2 {
-		margin-top: 8rem;
+		margin-top: 10rem;
 	}
 	.tablet {
 		height: 400px;
@@ -1483,6 +1481,9 @@
 		background: #000;
 		background-image: none !important;
 	}
+	.section1__headline2 {
+		margin-top: 10px;
+	}
 	.aboutus {
 		height: 65%;
 	}
@@ -1513,10 +1514,10 @@
 		width: 5rem;
 	}
 	.section2__headline2 {
-		margin-top: 8px;
+		margin-top: 40px;
 	}
 	.mobile {
-		margin-top: 2rem;
+		margin-top: 3rem;
 		padding-top: 4rem;
 	}
 	.section1__btn {
@@ -1647,7 +1648,7 @@
 			margin: 1rem 3rem;
 		}
 	.section1__headline2 {
-		margin-top: 0.5625rem;
+		margin-top: 60px;
 	}
 	.aboutus {
 		margin-top: 3rem;
@@ -1679,6 +1680,9 @@
 	}
 	.section1__bottom {
 		margin-top: 11vh !important;
+	}
+	.section1__headline2 {
+		margin-top: 80px;
 	}
 	.section1__left {
 		top: 67vh !important;
