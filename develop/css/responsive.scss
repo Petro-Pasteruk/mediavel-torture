@@ -236,7 +236,7 @@
 		width: 22.625rem;
 		line-height: 1.5;
 		text-align: right;
-		font-weight: 300;
+		font-weight: 400;
 	}
 	.order{
 		order: 1;
@@ -1473,7 +1473,7 @@
 }
 @media screen and (max-width: 425px) {
 	.page__cell.fixedHeight {
-		height: 100vh;
+		height: 73vh;
 		background-image: url("../images/jpg/bg_section2-425.jpg");
 		background-repeat: no-repeat;
 		background-position: center center;
