@@ -591,7 +591,7 @@
 		flex-shrink: 0;
 		display: flex;
 		/* align-items: center; */
-		background-image: url("images/png/contact-bg.png");
+		// background-image: url("images/png/contact-bg.png");
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
@@ -606,7 +606,7 @@
 	.contact__item{
 		display: flex;
 		align-items: center;
-		margin-bottom: .75rem;
+		margin-bottom: 1.75rem;
 	}
 	.contact__item-img{
 		min-width: 2.25rem;
@@ -647,7 +647,6 @@
 		font-weight: 400;
 		line-height: 1.222;
 		letter-spacing: .1em;
-		display: inline-block;
 	}
 	.day{
 		font-size: 1.125rem;
