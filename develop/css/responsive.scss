@@ -289,7 +289,7 @@
 	.section4__card-item{
 		position: relative;
 		width: 31%;
-		height: 47.5625rem;
+		height: 530px;
 		overflow: hidden;
 		transition: 0.4s;
 		cursor: pointer;
@@ -909,6 +909,9 @@
 @media screen and (max-width: 1150px) {
 	html {
 		font-size: 60%;
+	}
+	.section4__card-item{
+		height: 530px;
 	}
 	.section2 {
 		background-image: url(../images/jpg/bg_section2-1150.jpg);
