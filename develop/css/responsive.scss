@@ -79,7 +79,7 @@
 		font-weight: 400;
 		margin-top: 2rem;
 		z-index: 10;
-	}
+	} 
 	.section1__btn,
 	.section5__btn{
 		position: relative;
@@ -218,7 +218,6 @@
 	}
 	.aboutus__part{
 		width: 30.9375rem;
-		height: 30.625rem;
 		display: flex;
 		flex-wrap: wrap;
 		align-content: space-between;
@@ -228,6 +227,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		margin-bottom: 20px;
 	}
 	.item-img{
 		width: 5.75rem;
@@ -290,7 +290,7 @@
 	.section4__card-item{
 		position: relative;
 		width: 31%;
-		height: 43.5625rem;
+		height: 47.5625rem;
 		overflow: hidden;
 		transition: 0.4s;
 		cursor: pointer;
@@ -323,7 +323,7 @@
 		line-height: 1.2;
 		text-align: center;
 		position: absolute;
-		bottom: -3.5rem;
+		bottom: 0.5rem;
 		left: 0;
 		right: 0;
 		font-weight: 500;
@@ -932,9 +932,7 @@
 	.page__row.section3 {
 		margin-top: 0;
 	}
-	.screen{
-		height: 100vh;
-	}
+
 	.section2{
 		height: auto;
 	}
@@ -1126,9 +1124,7 @@
 		width: 100%;
 		margin-top: 6rem;
 	}
-	.aboutus__part {
-		height: 25.625rem;
-	}
+
 	.icon-cards {
 		margin: 3rem auto 15rem auto;
 	}
@@ -1322,7 +1318,7 @@
 		width: 100%!important;
 	}
 	.section1__headline {
-		font-size: 5.125rem;
+		font-size: 4.125rem;
 		margin-top: 17.85vh!important;
 	}
 	.section1__wheel {
@@ -1336,9 +1332,7 @@
 		flex-wrap: wrap;
 		justify-content: center;
 	}
-	.section1 {
-		height: 100vh;
-	}
+
 	.first{
 		flex-wrap: wrap-reverse;
 	}
@@ -1473,7 +1467,9 @@
 }
 @media screen and (max-width: 425px) {
 	.page__cell.fixedHeight {
-		height: 73vh;
+		margin-top: 30px;
+		padding-top: 30px;
+		padding-bottom: 30px;
 		background-image: url("../images/jpg/bg_section2-425.jpg");
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -1489,9 +1485,7 @@
 	.aboutus {
 		height: 65%;
 	}
-	.aboutus__part {
-		height: 70%;
-	}
+
 	.aboutus.desk {
 		display: none;
 	}
@@ -1520,7 +1514,6 @@
 	}
 	.mobile {
 		margin-top: 3rem;
-		padding-top: 4rem;
 	}
 	.section1__btn {
 		margin-top: 18vh !important;
