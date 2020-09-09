@@ -161,7 +161,7 @@ a{
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-end;
-	margin-top: 20.625rem;
+	margin-top: 10vh;
 }
 .section1__bottom-fb,
 .section1__bottom-trip,
@@ -273,6 +273,10 @@ a{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+.item-img,
+.item-img * {
+	pointer-events: none;
 }
 .item-img{
 	width: 62px;
@@ -403,6 +407,13 @@ a{
 .slider__item:focus,
 .slick-slide:focus {
 	outline: none;
+}
+.slider2__link {
+	display: block;
+	color: red;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 15px;
 }
 /*SECTION3*/
 /*SECTION4*/

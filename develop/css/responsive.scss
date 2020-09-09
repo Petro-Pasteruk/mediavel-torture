@@ -163,7 +163,7 @@
 	}
 	.section1__video{
 		position: relative;
-		margin: 3.75rem auto 0 auto;
+		margin: 0 auto 0 auto;
 		max-width: 64.6875rem;
 		max-height: 35.875rem;
 		z-index: 10;
@@ -338,7 +338,6 @@
 	}
 	.card-color{
 		font-weight: 500;
-		color: #000;
 	}
 	.card-weiht{
 		top: 38rem;
@@ -606,7 +605,7 @@
 	.contact__item{
 		display: flex;
 		align-items: center;
-		margin-bottom: 1.75rem;
+		margin-bottom: .75rem;
 	}
 	.contact__item-img{
 		min-width: 2.25rem;
@@ -914,11 +913,15 @@
 		height: 530px;
 	}
 	.section2 {
-		background-image: url(../images/jpg/bg_section2-1150.jpg);
 		background-size:auto;
+		height: initial;
+	}
+	.aboutus {
+		margin-top: 305px;
 	}
 	.section2__headline2 {
 		margin-top: 8rem;
+		margin-bottom: 6rem;
 	}
 }
 @media screen and (max-width: 1129px) {
@@ -1001,6 +1004,9 @@
 	}
 }
 @media screen and (max-width: 940px) {
+	.section4__card-item-headline {
+		display: none;
+	}
 	.tablet {
 		position: relative;
 		margin-top: 7rem;
@@ -1173,6 +1179,7 @@
 	}
 	.contact__item-text1, .mailto, .maplink {
 		font-size: 1.375rem;
+		font-weight: 400;
 	}
 
 	.open__item-text {
@@ -1320,7 +1327,7 @@
 	}
 	.section1__headline {
 		font-size: 4.125rem;
-		margin-top: 17.85vh!important;
+		margin-top: 15.85vh!important;
 	}
 	.section1__wheel {
 		width: 56rem;
@@ -1481,7 +1488,7 @@
 		background-image: none !important;
 	}
 	.section1__headline2 {
-		margin-top: 10px;
+		padding-top: 7rem;
 	}
 	.aboutus {
 		height: 65%;
@@ -1517,7 +1524,7 @@
 		margin-top: 3rem;
 	}
 	.section1__btn {
-		margin-top: 18vh !important;
+		margin-top: 16vh !important;
 	}
 	.section1__left,
 	.section1__left *,
@@ -1633,7 +1640,7 @@
 		font-size: 27px;
 	}
 	.content-left, .content-right {
-		width: 100%;
+		width: 85%;
 		font-size: 8px;
 	}
 	.section1__bottom{
