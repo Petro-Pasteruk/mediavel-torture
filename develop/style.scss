@@ -195,7 +195,7 @@ a{
 	text-transform: uppercase;
 	line-height: 1.5;
 	text-align: center;
-	margin-top: 185px;
+	margin-top: 165px;
 	letter-spacing: 0.1em;
 }
 .section1__headline2 span{
@@ -228,7 +228,7 @@ a{
 /*SECTION2*/
 .section2{
 	margin-top: 96px;
-	height: 850px;
+	height: 1080px;
 	position: relative;
 	background-image: url("../images/jpg/bg_section2_1920.jpg");
     /*background-size: cover;*/
@@ -253,7 +253,7 @@ a{
 }
 .aboutus{
 	width: 100%;
-	margin-top: 106px;
+	margin-top: 205px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -329,6 +329,9 @@ a{
 }
 /*SECTION2*/
 /*SECTION3*/
+.section3 {
+	margin-top: -140px;
+}
 .section3,
 .section3 * {
 	overflow-x: initial;
@@ -670,7 +673,7 @@ footer{
 .contact__item{
 	display: flex;
 	align-items: center;
-	margin-bottom: 1.75rem;
+	margin-bottom: .75rem;
 }
 .contact__item-img{
 	width: 2.25rem;
