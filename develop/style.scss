@@ -1032,6 +1032,11 @@ figure.snip1104 section {
 	opacity: .7;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	position: relative;
+}
+
+.swiper-slide--top{
+	top: 90% !important;
 }
 
 .swiper-slide-prev {
