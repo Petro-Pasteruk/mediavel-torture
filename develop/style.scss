@@ -58,7 +58,6 @@ a{
 }
 /*SECTION1*/
 .section1{
-	/*height: 118.125rem;*/
 	position: relative;
 	background-image: url("../images/jpg/bg_section1.jpg");
 	
@@ -195,7 +194,7 @@ a{
 	text-transform: uppercase;
 	line-height: 1.5;
 	text-align: center;
-	margin-top: 165px;
+	margin-top: 135px;
 	letter-spacing: 0.1em;
 }
 .section1__headline2 span{
@@ -227,7 +226,7 @@ a{
 /*SECTION1*/
 /*SECTION2*/
 .section2{
-	margin-top: 96px;
+	margin-top: 70px;
 	height: 1080px;
 	position: relative;
 	background-image: url("../images/jpg/bg_section2_1920.jpg");
@@ -306,7 +305,7 @@ a{
 	color: #bd0000;
 }
 .section2__headline2{
-	margin-top: 100px;
+	margin-top: 130px;
 	font-size: 48px;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -330,7 +329,7 @@ a{
 /*SECTION2*/
 /*SECTION3*/
 .section3 {
-	margin-top: -140px;
+	margin-top: -80px;
 }
 .section3,
 .section3 * {
@@ -388,6 +387,9 @@ a{
 }
 .section4__card-item-link a{
 	cursor: pointer;
+	color: #bd0000;
+}
+.section4__card-item-link a:hover {
 	color: #fa0000;
 }
 .section4__card-item-link:hover{
@@ -430,8 +432,8 @@ a{
 	text-transform: uppercase;
 	line-height: 0.75;
 	text-align: center;
-	font-weight: 300;
-	padding-top: 60px;
+	font-weight: 200;
+	padding-top: 130px;
 	letter-spacing: 0.1em;
 }
 .tablet{
@@ -441,7 +443,7 @@ a{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	margin-top: 42px;
+	margin-top: 65px;
 }
 .section__info-block1{
 	width: 49%;
@@ -593,6 +595,7 @@ a{
     background-size: contain;
     background-position: center;
 	background-repeat: no-repeat;
+	margin-top: 150px;
 }
 .section5__headline{
 	font-size: 48px;

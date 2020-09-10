@@ -1537,6 +1537,12 @@
 	.section2 {
 		background-image: url("../images/jpg/bg_section2-450.jpg");
 	}
+	.section1 {
+		height: 118.125rem;
+	}
+	.section1__wheel {
+		top: 30%;
+	}
 }
 @media screen and (max-width: 410px) {
 	.section2 {
