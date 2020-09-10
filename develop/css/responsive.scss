@@ -1532,16 +1532,16 @@
 	.section1__right * {
 		pointer-events: none;
 	}
-}
-@media screen and (max-width: 420px) {
-	.section2 {
-		background-image: url("../images/jpg/bg_section2-450.jpg");
-	}
 	.section1 {
 		height: 118.125rem;
 	}
 	.section1__wheel {
 		top: 30%;
+	}
+}
+@media screen and (max-width: 420px) {
+	.section2 {
+		background-image: url("../images/jpg/bg_section2-450.jpg");
 	}
 }
 @media screen and (max-width: 410px) {
