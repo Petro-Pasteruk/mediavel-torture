@@ -1483,6 +1483,15 @@
 		background-position: center center;
 		background-size: cover;
 	}
+	.adaptiveLogo {
+		display: block;
+	}
+	.adaptiveRemoveLogo {
+		display: none;
+	}
+	.header__logo {
+		width: 40%;
+	}
 	.section2 {
 		background: #000;
 		background-image: none !important;
