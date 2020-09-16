@@ -1431,9 +1431,11 @@
 		background-position: center center;
 		background-size: cover;
 	}
+	.section2 {
+		background: #040404;
+	}
 	.section1 {
 		background-size: cover;
- 
 	}
 	.adaptiveLogo {
 		display: block;
@@ -1493,9 +1495,6 @@
 	.section1__right,
 	.section1__right * {
 		pointer-events: none;
-	}
-	.section1 {
-		height: 100rem;
 	}
 	.section1__wheel {
 		top: 30%;
