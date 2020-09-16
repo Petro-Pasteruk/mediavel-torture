@@ -1434,6 +1434,11 @@
 	.section2 {
 		background: #040404;
 	}
+	.section1__left,
+	.section1__right {
+		bottom: -20px;
+		top: inherit !important;
+	}
 	.section1 {
 		background-size: cover;
 	}
@@ -1542,11 +1547,9 @@
     //	letter-spacing: 0.07em;
 	//}
 	.section1__left {
-		top: 65vh!important;
 		width: 140px
 	}
 	.section1__right {
-		top: 60vh!important;
 		width: 155px;
 	}
 	.slider__item {
@@ -1656,12 +1659,6 @@
 	}
 	.section1__headline2 {
 		margin-top: 80px;
-	}
-	.section1__left {
-		top: 67vh !important;
-	}
-	.section1__right {
-		top: 60vh !important;
 	}
 	.slider__item {
 		width: 30rem;
