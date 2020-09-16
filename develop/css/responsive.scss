@@ -660,58 +660,6 @@
 		height: 100%;
 	}
 	/*FOOTER*/
-	
-	/*зайчик*/
-	.raiting-icone,
-	.spacial-raiting{
-		position: relative;
-		z-index: 999;
-		cursor: pointer;
-	}
-	.raiting-icone:before,
-	.spacial-raiting:before{
-		opacity:1;
-		transition:15s ease-in}
-	.raiting-icone:hover:before{
-		opacity:.95;
-		cursor:pointer;
-		content:"";
-		display:block;
-		position:absolute;
-		width: 2.5rem;
-		height: 2.5rem;
-		background-size:contain;
-		background-repeat:no-repeat;
-		background-image:url(images/jpg/blik.jpg);
-		top:50%;
-		right:90%;
-		animation:Jb 3.4s ease-in-out;
-		animation-duration:3.5s;
-	}
-	.spacial-raiting:hover:before{
-		opacity:.95;
-		cursor:pointer;
-		content:"";
-		display:block;
-		position:absolute;
-		width:2.5rem;
-		height:2.5rem;
-		background-size:contain;
-		background-repeat:no-repeat;
-		background-image:url(images/jpg/blik.jpg);
-		top:58%;right:90%;
-		animation:Jb 3.4s ease-in-out;
-		animation-duration:3.5s;
-	}
-	@keyframes Jb{
-		0%{right:9.375rem}
-		30%, to{right:-15px;opacity: 0;}
-	}
-	@keyframes Jbg{
-		0%{right:80px}
-		20%, to{right:-10px;opacity: 0;}
-	}
-	/*зайчик*/
 	/*enjoy*/
 	.btn__enjoy {
 		position: absolute;
