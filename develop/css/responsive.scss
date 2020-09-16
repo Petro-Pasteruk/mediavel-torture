@@ -1424,12 +1424,12 @@
 }
 @media screen and (max-width: 425px) {
 	.page__cell.fixedHeight {
-		height: 100vh;
-		padding-bottom: 30px;
+		//height: 100vh;
+		//padding-bottom: 30px;
 		background-image: url("../images/jpg/bg_section2-425.jpg");
 		background-repeat: no-repeat;
-		background-position: center center;
-		background-size: cover;
+		background-position: center 10vh;
+		background-size: contain;
 	}
 	.section2 {
 		background: #040404;
@@ -1470,7 +1470,7 @@
 		align-content: space-between;
 		flex-direction: column;
 		height: 64%;
-		margin-top: 27vh;
+		margin-top: 13vh;
 	}
 
 	.aboutus.mob .aboutus__part {
