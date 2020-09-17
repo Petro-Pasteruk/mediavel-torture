@@ -1426,10 +1426,10 @@
 	.page__cell.fixedHeight {
 		//height: 100vh;
 		//padding-bottom: 30px;
-		background-image: url("../images/jpg/bg_section2-425.jpg");
+		background-image: url("../images/png/bg_section2_425.png");
 		background-repeat: no-repeat;
-		background-position: center 10vh;
-		background-size: contain;
+		background-position: center 10px;
+		background-size: cover;
 		min-height: 502.61px;
 	}
 	.section2 {
