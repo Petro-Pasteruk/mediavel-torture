@@ -100,6 +100,8 @@ $(document).ready(function () {
     oldMapParent.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5941.280215846711!2d-87.627482!3d41.879089!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ca33f58ffd1%3A0xf06bc2d1f0d09729!2s211%20S%20State%20St%2C%20Chicago%2C%20IL%2060604%2C%20USA!5e0!3m2!1sen!2sua!4v1597659784049!5m2!1sen!2sua"  width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>`;
     newMapParent.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3458.9454919933796!2d-81.3152870848884!3d29.894671181936996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e42795ef799113%3A0x8f4b88d415750502!2sMedieval%20Torture%20Museum!5e0!3m2!1sen!2sua!4v1599847291706!5m2!1sen!2sua"  width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>`;
 
+    let counter = 0;
+
     function toggleCity (e) {
         const
             parentContact = document.querySelector(".contact"),
@@ -110,7 +112,7 @@ $(document).ready(function () {
             parentMap = document.querySelector("#parentMap"),
             preloader = document.querySelector(".lds-roller__wrap");
 
-        if (e.target.classList.contains("option")) {
+        if (e.target.classList.contains("option") && counter > 0) {
             preloader.classList.add("active");
             document.querySelector("body").classList.add("no-scroll");
             setTimeout(() => {
@@ -173,11 +175,13 @@ $(document).ready(function () {
                     setTimeout(() => {
                         niceSelect.querySelector('.option[data-value="1"]').click();
                         niceSelect.classList.remove("open");
+                        counter++;
                     }, 200);
                 } else {
                     setTimeout(() => {
                         niceSelect.querySelector('.option[data-value="2"]').click();
                         niceSelect.classList.remove("open");
+                        counter++;
                     }, 200);
                 }
             } else if (distanceChicago.latitude > distanceAugustine.latitude || distanceChicago.longitude > distanceAugustine.longitude) {
@@ -185,6 +189,7 @@ $(document).ready(function () {
                 setTimeout(() => {
                     niceSelect.querySelector('.option[data-value="2"]').click();
                     niceSelect.classList.remove("open");
+                    counter++;
                 }, 200);
             }
 
