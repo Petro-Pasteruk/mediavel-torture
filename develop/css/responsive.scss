@@ -1331,7 +1331,7 @@
 		background-image: url("../images/jpg/bg_section2-450-2.jpg");
 	}
 	.section2__left {
-		top: 350px;
+		top: 430px;
 		width: 30.8125rem;
 		transform: translateY(-25%);
 	}
@@ -1594,6 +1594,11 @@
 	}
 	.h1 {
 		font-size: 14px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.section1__btn {
+		margin-top: 20vh !important;
 	}
 }
 @media screen and (max-width: 370px) {
