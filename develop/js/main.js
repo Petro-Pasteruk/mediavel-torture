@@ -118,7 +118,7 @@ $(document).ready(function () {
             setTimeout(() => {
                 preloader.classList.remove("active");
                 document.querySelector("body").classList.remove("no-scroll");
-            }, 900);
+            }, 1000);
         }
 
         setTimeout(() => {

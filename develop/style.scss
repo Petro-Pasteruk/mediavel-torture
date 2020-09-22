@@ -52,57 +52,65 @@ body.no-scroll {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	transition: opacity .3s, z-index .3s;
+	transition: opacity .3s;
 	width: 100vw;
 	height: 100vh;
 	background: rgba(0,0,0,.7);
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 .lds-roller__wrap.active {
 	z-index: 101;
 	opacity: 1;
 }
 .lds-roller {
-	width: 8vmax;
-	height: 8vmax;
-	border-right: 4px solid #ffffff;
-	border-radius: 100%;
-	animation: spinRight 800ms linear infinite;
-
-	&:before, &:after {
-		content: '';
-		width: 6vmax;
-		height: 6vmax;
-		display: block;
-		position: absolute;
-		top: calc(50% - 3vmax);
-		left: calc(50% - 3vmax);
-		border-left: 3px solid #ffffff;
-		border-radius: 100%;
-		animation: spinLeft 800ms linear infinite;
-	}
-
-	&:after {
-		width: 4vmax;
-		height: 4vmax;
-		top: calc(50% - 2vmax);
-		left: calc(50% - 2vmax);
-		border: 0;
-		border-right: 2px solid #ffffff;
-		animation: none;
-	}
+	width: 68px;
+	height: 68px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-@keyframes spinLeft {
-	from {transform:rotate(0deg);}
-	to {transform:rotate(720deg);}
+.cube1,
+.cube2 {
+	background-color: #fff;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
+	animation: sk-cubemove 1.8s infinite ease-in-out;
 }
 
-@keyframes spinRight {
-	from {transform:rotate(360deg);}
-	to {transform:rotate(0deg);}
+.cube2 {
+	-webkit-animation-delay: -0.9s;
+	animation-delay: -0.9s;
+}
+
+@-webkit-keyframes sk-cubemove {
+	25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) }
+	50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg) }
+	75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5) }
+	100% { -webkit-transform: rotate(-360deg) }
+}
+
+@keyframes sk-cubemove {
+	25% {
+		transform: translateX(42px) rotate(-90deg) scale(0.5);
+		-webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+	} 50% {
+		  transform: translateX(42px) translateY(42px) rotate(-179deg);
+		  -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+	  } 50.1% {
+			transform: translateX(42px) translateY(42px) rotate(-180deg);
+			-webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+		} 75% {
+			  transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+			  -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+		  } 100% {
+				transform: rotate(-360deg);
+				-webkit-transform: rotate(-360deg);
+			}
 }
 
 .page__row{
