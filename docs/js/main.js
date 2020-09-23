@@ -69,7 +69,7 @@ $(document).ready(function () {
 \t\t\t\t\t<div class="open__item">
 \t\t\t\t\t\t<div class="open__item-text day">Sunday:</div>
 \t\t\t\t\t\t<div class="open__item-text">10 am – 11 pm</div>
-\t\t\t\t\t</div><br>
+\t\t\t\t\t</div>
 \t\t\t\t\t<div class="open__item">
 \t\t\t\t\t\t<div class="open__item-text1">Last ticket sold one hour prior
 \t\t\t\t\t\t\t<br>to closing</div>
@@ -88,7 +88,7 @@ $(document).ready(function () {
 \t\t\t\t\t<div class="open__item">
 \t\t\t\t\t\t<div class="open__item-text day">Sunday:</div>
 \t\t\t\t\t\t<div class="open__item-text">10 am – 10 pm</div>
-\t\t\t\t\t</div><br>
+\t\t\t\t\t</div>
 \t\t\t\t\t<div class="open__item">
 \t\t\t\t\t\t<div class="open__item-text1">Last ticket sold one hour prior
 \t\t\t\t\t\t\t<br>to closing</div>
