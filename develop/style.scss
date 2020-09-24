@@ -58,7 +58,7 @@ body.no-scroll {
 	background: rgba(0,0,0,.7);
 }
 .lds-roller__wrap.active {
-	z-index: 101;
+	z-index: 1000;
 	opacity: 1;
 }
 .lds-roller {
