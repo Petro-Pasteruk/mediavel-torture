@@ -221,4 +221,10 @@ $(document).ready(function () {
             clickable: true,
         },
     });
+
+    const
+        sliderActive = document.querySelector(".swiper-slide-active"),
+        sliderContainer = document.querySelector(".swiper-container");
+
+    sliderContainer.style.height = sliderActive.offsetHeight + "px";
 });
