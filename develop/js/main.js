@@ -221,7 +221,8 @@ $(document).ready(function () {
             clickable: true,
         },
     });
-
+});
+$(window).load(function() {
     const
         sliderActive = document.querySelector(".swiper-slide-active"),
         sliderContainer = document.querySelector(".swiper-container");
