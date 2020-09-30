@@ -1423,6 +1423,9 @@
 	}
 }
 @media screen and (max-width: 425px) {
+	body {
+		overflow-x: hidden !important;
+	}
 	.page__cell.fixedHeight {
 		//height: 100vh;
 		//padding-bottom: 30px;
