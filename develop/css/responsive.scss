@@ -960,7 +960,6 @@
 		position: relative;
 		margin-top: 7rem;
 		padding-bottom: 5rem;
-		height: 44.875rem;
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
@@ -1007,7 +1006,6 @@
 		position: sticky;
 		top: 0;
 		width: 23.5rem;
-		height: 15.22rem;
 		overflow: hidden;
 		margin-right: 20px;
 	}
@@ -1220,9 +1218,6 @@
 	}
 	.slider__item {
 		width: 35rem;
-	}
-	.block__img img {
-		height: 104%;
 	}
 }
 @media screen and (max-width: 510px) {
